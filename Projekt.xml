@@ -1,61 +1,61 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pokedex SYSTEM "Projekt.dtd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Projekt.css" ?>
-<pokedex>
+<!DOCTYPE pokedex SYSTEM "Projekt.dtd">
+<pokedex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Projekt.xsd">
 <type typ="electric">
-	<pokemon id="25">
-		<species>Pikachu</species>
-		<height>1'04"</height>
-		<weight>13.2 lbs</weight>
-		<firstapp>I Gen</firstapp>
-	</pokemon>
-	<pokemon id="179">
-		<species>Mareep</species>
-		<height>2'00"</height>
-		<weight>17.2 lbs</weight>
-		<firstapp>II Gen</firstapp>
-	</pokemon>
+        <pokemon id="25">
+                <species>Pikachu</species>
+                <height>1'04"</height>
+                <weight>13.2 lbs</weight>
+                <firstapp>I Gen</firstapp>
+        </pokemon>
+        <pokemon id="179">
+                <species>Mareep</species>
+                <height>2'00"</height>
+                <weight>17.2 lbs</weight>
+                <firstapp>II Gen</firstapp>
+        </pokemon>
 </type>
 <type typ="fire">
-	<pokemon id="155">
-		<species>Cyndaquil</species>
-		<height>1'08"</height>
-		<weight>17.4 lbs</weight>
-		<firstapp>II Gen</firstapp>
-	</pokemon>
-	<pokemon id="4">
-		<species>Charmander</species>
-		<height>2'00"</height>
-		<weight>18.7 lbs</weight>
-		<firstapp>I Gen</firstapp>
-	</pokemon>
+        <pokemon id="155">
+                <species>Cyndaquil</species>
+                <height>1'08"</height>
+                <weight>17.4 lbs</weight>
+                <firstapp>II Gen</firstapp>
+        </pokemon>
+        <pokemon id="4">
+                <species>Charmander</species>
+                <height>2'00"</height>
+                <weight>18.7 lbs</weight>
+                <firstapp>I Gen</firstapp>
+        </pokemon>
 </type>
 <type typ="grass">
-	<pokemon id="152">
-		<species>Chikorita</species>
-		<height>2'11"</height>
-		<weight>14.1 lbs</weight>
-		<firstapp>II Gen</firstapp>
-	</pokemon>
-	<pokemon id="387">
-		<species>Turtwig</species>
-		<height>1'04"</height>
-		<weight>22.5 lbs</weight>
-		<firstapp>IV Gen</firstapp>
-	</pokemon>
+        <pokemon id="152">
+                <species>Chikorita</species>
+                <height>2'11"</height>
+                <weight>14.1 lbs</weight>
+                <firstapp>II Gen</firstapp>
+        </pokemon>
+        <pokemon id="387">
+                <species>Turtwig</species>
+                <height>1'04"</height>
+                <weight>22.5 lbs</weight>
+                <firstapp>IV Gen</firstapp>
+        </pokemon>
 </type>
 <type typ="water">
-	<pokemon id="393">
-		<species>Piplup</species>
-		<height>1'04"</height>
-		<weight>11.5 lbs</weight>
-		<firstapp>IV Gen</firstapp>
-	</pokemon>
-	<pokemon id="183">
-		<species>Marill</species>
-		<height>1'04"</height>
-		<weight>18.7 lbs</weight>
-		<firstapp>II Gen</firstapp>
-	</pokemon>
+        <pokemon id="393">
+                <species>Piplup</species>
+                <height>1'04"</height>
+                <weight>11.5 lbs</weight>
+                <firstapp>IV Gen</firstapp>
+        </pokemon>
+        <pokemon id="183">
+                <species>Marill</species>
+                <height>1'04"</height>
+                <weight>18.7 lbs</weight>
+                <firstapp>II Gen</firstapp>
+        </pokemon>
 </type>
 </pokedex>
