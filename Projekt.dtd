@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!ELEMENT pokedex (type)+>
+<!ATTLIST pokedex xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance">
+<!ATTLIST pokedex xsi:noNamespaceSchemaLocation CDATA #FIXED "Projekt.xsd">
 <!ATTLIST type typ CDATA #REQUIRED>
 <!ELEMENT type (pokemon)+>
 <!ATTLIST pokemon id CDATA #REQUIRED>
