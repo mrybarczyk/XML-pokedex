@@ -37,6 +37,14 @@ species:before {
 
 pokemon[id="25"]>species:after {
 
+	content: url('mareep.gif');
+
+}
+
+
+
+pokemon[id="179"]>species:after {
+
 	content: url('Pikachu.png');
 
 }
@@ -46,6 +54,14 @@ pokemon[id="25"]>species:after {
 pokemon[id="155"]>species:after {
 
 	content: url('Cyndaquil.png');
+
+}
+
+
+
+pokemon[id="4"]>species:after {
+
+	content: url('charmander.png');
 
 }
 
@@ -67,6 +83,22 @@ pokemon[id="387"]>species:after {
 
 
 
+pokemon[id="393"]>species:after {
+
+	content: url('piplup.png');
+
+}
+
+
+
+pokemon[id="183"]>species:after {
+
+	content: url('marill.png');
+
+}
+
+
+
 type[typ="electric"]>pokemon {
 	border-style: solid;
 	border-width: thin;
@@ -77,6 +109,20 @@ type[typ="electric"]>pokemon {
 }
 
 type[typ="electric"]>pokemon:hover {
+
+	background: white;
+}
+
+type[typ="water"]>pokemon {
+	border-style: solid;
+	border-width: thin;
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background: blue;
+}
+
+type[typ="water"]>pokemon:hover {
 
 	background: white;
 }

@@ -8,6 +8,12 @@
 		<weight>13.2 lbs</weight>
 		<firstapp>I Gen</firstapp>
 	</pokemon>
+	<pokemon id="179">
+		<species>Mareep</species>
+		<height>2'00"</height>
+		<weight>17.2 lbs</weight>
+		<firstapp>II Gen</firstapp>
+	</pokemon>
 </type>
 <type typ="fire">
 	<pokemon id="155">
@@ -15,6 +21,12 @@
 		<height>1'08"</height>
 		<weight>17.4 lbs</weight>
 		<firstapp>II Gen</firstapp>
+	</pokemon>
+	<pokemon id="4">
+		<species>Charmander</species>
+		<height>2'00"</height>
+		<weight>18.7 lbs</weight>
+		<firstapp>I Gen</firstapp>
 	</pokemon>
 </type>
 <type typ="grass">
@@ -29,6 +41,20 @@
 		<height>1'04"</height>
 		<weight>22.5 lbs</weight>
 		<firstapp>IV Gen</firstapp>
+	</pokemon>
+</type>
+<type typ="water">
+	<pokemon id="393">
+		<species>Piplup</species>
+		<height>1'04"</height>
+		<weight>11.5 lbs</weight>
+		<firstapp>IV Gen</firstapp>
+	</pokemon>
+	<pokemon id="183">
+		<species>Marill</species>
+		<height>1'04"</height>
+		<weight>18.7 lbs</weight>
+		<firstapp>II Gen</firstapp>
 	</pokemon>
 </type>
 </pokedex>
