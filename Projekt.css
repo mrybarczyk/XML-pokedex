@@ -37,7 +37,7 @@ species:before {
 
 pokemon[id="25"]>species:after {
 
-	content: url('mareep.gif');
+	content: url('Pikachu.png');
 
 }
 
@@ -45,7 +45,7 @@ pokemon[id="25"]>species:after {
 
 pokemon[id="179"]>species:after {
 
-	content: url('Pikachu.png');
+	content: url('mareep.gif');
 
 }
 
