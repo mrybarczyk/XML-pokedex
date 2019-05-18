@@ -29,6 +29,13 @@
                 <weight>18.7 lbs</weight>
                 <firstapp>I Gen</firstapp>
         </pokemon>
+	<pokemon id="662">
+                <species>Fletchinder</species>
+                <height>2'04"</height>
+                <weight>35.3 lbs</weight>
+                <firstapp>VI Gen</firstapp>
+		<typ2>flying</typ2>
+        </pokemon>
 </type>
 <type typ="grass">
         <pokemon id="152">

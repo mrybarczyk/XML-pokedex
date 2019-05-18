@@ -5,8 +5,9 @@
 <!ATTLIST type typ CDATA #REQUIRED>
 <!ELEMENT type (pokemon)+>
 <!ATTLIST pokemon id CDATA #REQUIRED>
-<!ELEMENT pokemon (species, height, weight, firstapp)>
+<!ELEMENT pokemon (species, height, weight, firstapp, typ2?)>
 <!ELEMENT species (#PCDATA)>
 <!ELEMENT height (#PCDATA)>
 <!ELEMENT weight (#PCDATA)>
 <!ELEMENT firstapp (#PCDATA)>
+<!ELEMENT typ2 (#PCDATA)>

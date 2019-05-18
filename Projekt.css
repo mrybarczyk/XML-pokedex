@@ -43,6 +43,14 @@ pokemon[id="25"]>species:after {
 
 
 
+pokemon[id="662"]>species:after {
+
+	content: url('fletchinder.png');
+
+}
+
+
+
 pokemon[id="179"]>species:after {
 
 	content: url('mareep.gif');
@@ -199,3 +207,8 @@ weight {
 	font-size: 10px;
 }
 
+
+
+typ2 {
+	display: none;
+}
