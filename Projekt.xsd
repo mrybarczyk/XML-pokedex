@@ -16,20 +16,19 @@
 	</xsd:complexType>
 </xsd:element>
 <xsd:element name="pokemon">
-	<xs:complexType>
+	<xsd:complexType>
 		<xsd:sequence>
 			<xsd:element ref="species"/>
 			<xsd:element ref="height"/>
 			<xsd:element ref="weight"/>
 			<xsd:element ref="firstapp"/>
-			<xsd:element ref="typ2/>
 		</xsd:sequence>
 		<xsd:attribute name="id" use="required" type="xsd:integer"/>
+		<xsd:attribute name="typ2" use="optional" type="xsd:NCName"/>
 	</xsd:complexType>
 </xsd:element>
 <xsd:element name="species" type="xsd:NCName"/>
 <xsd:element name="height" type="xsd:string"/>
 <xsd:element name="weight" type="xsd:string"/>
 <xsd:element name="firstapp" type="xsd:string"/>
-<xsd:element name="typ2" type="xsd:string" use="optional"/>
 </xsd:schema>

@@ -15,6 +15,12 @@
                 <weight>17.2 lbs</weight>
                 <firstapp>II Gen</firstapp>
         </pokemon>
+	<pokemon id="777" typ2="steel">
+                <species>Togedemaru</species>
+                <height>1'00"</height>
+                <weight>7.3 lbs</weight>
+                <firstapp>VII Gen</firstapp>
+        </pokemon>
 </type>
 <type typ="fire">
         <pokemon id="155">
@@ -29,12 +35,11 @@
                 <weight>18.7 lbs</weight>
                 <firstapp>I Gen</firstapp>
         </pokemon>
-	<pokemon id="662">
+	<pokemon id="662" typ2="flying">
                 <species>Fletchinder</species>
                 <height>2'04"</height>
                 <weight>35.3 lbs</weight>
                 <firstapp>VI Gen</firstapp>
-		<typ2>flying</typ2>
         </pokemon>
 </type>
 <type typ="grass">
@@ -50,6 +55,12 @@
                 <weight>22.5 lbs</weight>
                 <firstapp>IV Gen</firstapp>
         </pokemon>
+	<pokemon id="724" typ2="ghost">
+                <species>Decidueye</species>
+                <height>5'03"</height>
+                <weight>36.6 lbs</weight>
+                <firstapp>VII Gen</firstapp>
+        </pokemon>
 </type>
 <type typ="water">
         <pokemon id="393">
@@ -63,6 +74,12 @@
                 <height>1'04"</height>
                 <weight>18.7 lbs</weight>
                 <firstapp>II Gen</firstapp>
+        </pokemon>
+	<pokemon id="730" typ2="fairy">
+                <species>Primarina</species>
+                <height>5'11"</height>
+                <weight>97.0 lbs</weight>
+                <firstapp>VII Gen</firstapp>
         </pokemon>
 </type>
 </pokedex>

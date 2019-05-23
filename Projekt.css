@@ -6,14 +6,16 @@ type {
 
 	border-width: thin;
 
+        --border-color: green;
 	padding: 10px;
 
 	margin: 10px;
 
 	background: grey;
 
+	font-family: Comic Sans MS;
+	--color: fuchsia;
 }
-
 
 
 type>* {
@@ -34,6 +36,30 @@ species:before {
 	font-weight: bold;
 	content: attr(id) "\00a0 ";
 }
+
+pokemon[id="777"]>species:after {
+
+	content: url('togedemaru.png');
+
+}
+
+
+
+pokemon[id="730"]>species:after {
+
+	content: url('primarina.png');
+
+}
+
+
+
+pokemon[id="724"]>species:after {
+
+	content: url('Decidueye.png');
+
+}
+
+
 
 pokemon[id="25"]>species:after {
 
@@ -212,3 +238,24 @@ weight {
 typ2 {
 	display: none;
 }
+
+pokemon[typ2="flying"]:hover {
+
+	background: aqua !important;
+}
+
+pokemon[typ2="steel"]:hover {
+
+	background: #E1E1E1 !important;
+}
+
+pokemon[typ2="fairy"]:hover {
+
+	background: fuchsia !important;
+}
+
+pokemon[typ2="ghost"]:hover {
+
+	background: purple !important;
+}
+
